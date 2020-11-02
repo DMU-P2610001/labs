@@ -1,0 +1,47 @@
+img {
+  width: 100%;
+        border-radius: 5px;
+          box-shadow: 2px 2px rgba(48, 45, 60, 0.45);
+}
+
+
+body {
+    font-family: arial
+}
+body {margin: 0px;
+padding: 10px;
+
+
+}
+
+      header  {
+  background-color: rgb(223, 28, 209);
+      margin: -10px;
+      padding: 1px;
+        }
+
+        header {text-align: center;}
+
+aside {background-color: rgb(214, 157, 226);
+  padding: 5px;
+  border: 2px black solid;
+  border-radius: 10px;
+
+}
+
+aside p {line-height: 0.01;}
+
+footer {
+background-color: rgb(101, 53, 186);
+padding: 10px;
+margin: 1px;
+width: 100%;
+
+
+
+}
+footer{color: white;
+}
+a{
+  color: white;
+}
