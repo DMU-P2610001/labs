@@ -1,0 +1,169 @@
+
+body{
+  background-image: url("../image/starbackground.jpg");
+}
+/*image idea was stars to represent being lost(story of tom being lost in life)*/
+
+h1{
+  text-align: center;
+  color: rgb(234, 239, 242);
+}
+/*Centred this to make it stand out more*/
+
+h2{
+  text-align: center;
+  color: rgb(234, 239, 242);
+}
+
+h3{
+  color: rgb(234, 239, 242);
+  margin: 10px;
+  padding: 10px;
+}
+
+.castimage{
+  width: 25%;
+  min-width: 100px;
+  float: left;
+  margin-right: 15px;
+  border-radius: 5px;
+  box-shadow: 4px 4px rgb(67, 69, 67);
+
+}
+/*images were placed on the left to make text wrap around*/
+
+header{
+  background-color: rgb(36, 9, 62);
+  padding: 10px;
+  color: white;
+  margin: 10px 10px;
+  font-family: sans-serif;
+  border-color: rgb(202, 246, 247);
+  border-style: solid;
+  font-size: 30pt;
+}
+/*header & footer colours are purple, i think these go well with the rest of the star/nighttime theme,
+font size is large as it's the film title, this makes it stand out more*/
+
+footer{
+  background-color: rgb(36, 9, 62);
+  padding: 10px;
+  color: white;
+  margin: 10px 10px;
+  border-color: rgb(202, 246, 247);
+  border-style: solid;
+}
+
+a{
+  color: rgb(234, 239, 242);
+
+
+
+}
+nav a:hover{
+  background-color: rgb(17, 86, 101);
+}
+
+section{
+  background-color: rgb(13, 13, 66);
+  border: 20px 20px;
+padding: 10px 10px;
+margin: 10px 10px;
+border-color: rgb(202, 246, 247);
+border-style: solid;
+}
+/*section colours are navy blue, going well with the star/nighttime theme*/
+
+p{
+  color: rgb(234, 239, 242);
+  font-size: 16pt;
+  font-family: sans-serif;
+  text-align: justify;
+}
+/*text for all paragraphs have been set to justify to keep nice & neat*/
+
+.cast::after{
+  content: "";
+  display: block;
+  clear: both;
+
+}
+/*this is to help seperate the cast writing & the audio sections*/
+
+div::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.menu{
+  float: left;
+  width: 46%;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(62, 168, 175);
+  margin: 2%;
+
+}
+/* menu was put into boxes to help highlight the nav*/
+
+.cinema{
+font-size: 18pt;
+font-family: fantasy;
+
+
+}
+/*this font is changed to highlight the release date of the film*/
+
+.fam{
+  width: 50%;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*image centered & sized to look good on the page*/
+
+
+
+
+.capture{
+  font-size: 10pt;
+  font-style: italic;
+  text-align: center;
+}
+/*this is the caption for the image on the about page*/
+
+li{
+  color: rgb(234, 239, 242);
+  font-style: italic;
+  font-family: sans-serif;
+  font-size: 18pt;
+}
+
+.ratings{
+  background-color: rgb(62, 168, 175);
+  padding: 10px;
+  margin: 10px;
+  border-color: rgb(202, 246, 247);
+  border-style: solid;
+}
+/*i've put the ratings in a seperate boarder to make them stand out more*/
+
+nav a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 16pt;
+
+}
+/*removed underline from nav menu to neaten up*/
+
+
+
+
+
+
+
+/*To Thom & Mohamed, thank you for your help over the first period, both have really been
+there when needed, I appreciate it */
