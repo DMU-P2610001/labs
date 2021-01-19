@@ -1,0 +1,36 @@
+.menu{
+
+  background-color: rgb(178, 238, 191);
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+transition: background-color 0.3s, width 0.3s, height 0.3s;
+}
+
+.out{
+  background-color: rgb(173, 67, 210);
+width: 70%;
+height: 100vh;
+
+}
+
+body{
+  display: block;
+  margin: 8px;
+}
+
+
+
+.menuItem {
+  padding: 10px;
+      font-family: sans-serif;
+      font-size: 1.5em;
+      opacity: 0;
+      transition: opacity 0.3s;
+      color: white;
+      pointer-events: none;
+}
+.menu.out .menuItem {
+  pointer-events: all;
+  opacity: 1;
+}
